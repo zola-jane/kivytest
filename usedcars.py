@@ -8,7 +8,7 @@ def main():
     # print("odo =", bus.odometer)
     # print(bus)
 
-    limo = Car(100)
+    limo = Car("Limo", 100)
     limo.add_fuel(20)
     print(limo.fuel)
     limo.drive(115)
